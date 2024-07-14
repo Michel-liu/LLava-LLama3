@@ -7,7 +7,6 @@ dist
 # Log
 *.log
 *.log.*
-*.json
 *.jsonl
 
 # Data
@@ -21,6 +20,7 @@ dist
 .DS_Store
 wandb
 output
+results
 
 checkpoints
 ckpts*
@@ -37,3 +37,5 @@ serve_images/
 # data path & pre-trained model path
 playground/
 checkpoints/
+
+llava/eval/table/*.json
